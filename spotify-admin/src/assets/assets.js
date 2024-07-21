@@ -8,7 +8,7 @@ import song_icon from './song_icon.png'
 import album_icon from './album_icon.png'
 import upload_song from './upload_song.png'
 
-export const assets ={
+export const assets = {
     logo,
     logo_small,
     upload_area,
@@ -19,4 +19,5 @@ export const assets ={
     album_icon,
     upload_song
 }
+
 

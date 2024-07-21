@@ -53,6 +53,25 @@ const AddSong = () => {
         setLoading(false);
     }
 
+    const loadAlbumData = async () => {
+        try {
+            const response = await axios.get(`${url}/api/album/list/`);
+            if (response.data.success) {
+                setAlbumData(response.data.albums);
+            } else {
+                toast.error("Unable to load almums data")
+            }
+        }
+
+        catch (error) {
+            toast.error("Error Occured")
+        }
+    }
+
+    useEffect(() => {
+        loadAlbumData();
+    }, [])
+
     return (
         <form onSubmit={onSubmitHandler} className='flex flex-col items-start gap-8 text-gray-600'>
             <div className='flex gap-8'>
@@ -122,8 +141,8 @@ const AddSong = () => {
                 >
                     <option value='none'>None</option>
                     {/* Map through albumData to create more options */}
-                    {albumData.map((album, index) => (
-                        <option key={index} value={album.name}>{album.name}</option>
+                    {albumData.map((item, index) => (
+                        <option key={index} value={item.name}>{item.name}</option>
                     ))}
                 </select>
             </div>
