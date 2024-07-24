@@ -1,6 +1,6 @@
-**UI/UX Desinging of Spotify:**  https://www.figma.com/design/Ar1E929qEBkRrGMN7MOCNy/Spotify-Clone?node-id=0-1&t=A0D39R1ol79qLCnK-1
+**UI/UX Design of Spotify:**  https://www.figma.com/design/Ar1E929qEBkRrGMN7MOCNy/Spotify-Clone?node-id=0-1&t=A0D39R1ol79qLCnK-1
 
-**Deployment Links:**
+**Deployment Links -**
 
 **Spotify_Clone_FullStack_App:**  **https://spotify-clone-fullstack-eight.vercel.app/**
 
