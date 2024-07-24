@@ -1,3 +1,10 @@
+**Spotify_Clone_FullStack_App:**  **https://spotify-clone-fullstack-eight.vercel.app/**
+
+**Spotify_Clone_Admin_Page:**   **https://spotify-clone-fullstack-admin-page.vercel.app/**
+
+**Spotify_clone_Backend:** https://spotify-clone-fullstack-backend.onrender.com
+
+
 **DashBoard:**
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/b4c094ba-56f2-4b2b-8737-7d4814177004">
