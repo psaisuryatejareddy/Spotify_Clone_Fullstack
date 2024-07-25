@@ -25,7 +25,50 @@
 
 
 
+---
 
+### How to Run the Application
+
+1. **Download and Extract the Repository:**
+   - Download this repository as a ZIP file and extract it.
+   - Open the extracted folder in VS Code.
+
+2. **Start the Backend Server:**
+   - In the VS Code terminal, type:
+     ```
+     cd spotify-clone-backend
+     ```
+   - Then, type:
+     ```
+     nodemon server.js
+     ```
+   - You should see a message saying "MongoDB connected!". The backend server is now running successfully.
+
+3. **Start the Frontend:**
+   - Open a new terminal and type:
+     ```
+     cd spotify-clone-frontend
+     ```
+   - Then, type:
+     ```bash
+     npm run dev
+     ```
+   - You'll find a localhost link in the terminal. Click that link to access the application in the browser.
+
+4. **Start the Admin Page:**
+   - Open a new terminal and type:
+     ```
+     cd spotify-admin
+     ```
+   - Then, type:
+     ```
+     npm run dev
+     ```
+   - You'll find a localhost link in the terminal. Click that link to access the admin page in the browser.
+
+You're good to go!
+
+---
 
 backend:
 
